@@ -1,0 +1,78 @@
+h1{
+text-align: center;
+color:#0000ff;
+text-decoration:underline;
+}
+
+/* *{
+border:solid;
+}*/
+
+.bodyImg{
+text-align: center;
+}
+
+.header{
+padding: 30px;
+}
+
+p{
+text-decoration-color: #fa8090;
+}
+
+.animal img{
+border: 5px solid #000000;
+border-radius: 20%;
+}
+
+.animal{
+display:flex;
+flex-wrap: wrap;
+
+margin: 20px;
+justify-content: space-between;
+}
+
+.origami{
+border-radius: 20px;
+background-color: #ffffff;
+
+padding: 30px;
+margin: 20px;
+justify-content: space-evenly;
+
+width: 310px;
+font-family: fantasy;
+}
+
+.origami ul{
+    color:#ff3300;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+
+.origami:hover ul{
+    opacity:1
+}
+
+.menu{
+display: flex;
+justify-content: space-between;
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 400;
+color: #ffffff;
+margin-left: 90%;
+}
+
+body{
+background-color: #f7f2f2;
+
+margin:0px;
+}
+
+.footer a{
+align-content: flex-end;
+}
